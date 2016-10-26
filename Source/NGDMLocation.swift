@@ -1,8 +1,7 @@
 //
 //  NGDMLocation.swift
 //
-import Foundation
-import UIKit
+
 // Wrapper class for `NGEEventLocationType` Manifest object
 open class NGDMLocation {
     

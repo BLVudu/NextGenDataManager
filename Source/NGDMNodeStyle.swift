@@ -3,7 +3,6 @@
 //
 
 import Foundation
-import UIKit
 
 public enum DeviceTargetClass: String {
     case Mobile = "Mobile"

@@ -3,7 +3,6 @@
 //
 
 import Foundation
-import UIKit
 
 // Wrapper class for `NGEPresentationType` Manifest object
 open class NGDMPresentation {

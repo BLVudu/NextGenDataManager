@@ -3,7 +3,6 @@
 //
 
 import Foundation
-import UIKit
 
 // Wrapper class for `NGEInventoryImageType` Manifest object
 open class NGDMImage {

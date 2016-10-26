@@ -3,7 +3,6 @@
 //
 
 import Foundation
-import UIKit
 
 public enum ExperienceType {
     case app

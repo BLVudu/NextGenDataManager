@@ -3,7 +3,6 @@
 //
 
 import Foundation
-import UIKit
 
 // Wrapper class for `NGEInventoryVideoType` Manifest object
 open class NGDMVideo {
