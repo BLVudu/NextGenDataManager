@@ -22,6 +22,8 @@ public struct Namespaces {
 
 /// Manager for communicating with parsed Manifest data
 open class NGDMManifest {
+    // VUDU:
+    open var mainVVContentId: String?
     
     // MARK: Singleton Methods
     /// Static shared instance for singleton
