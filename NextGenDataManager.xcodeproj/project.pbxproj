@@ -507,7 +507,6 @@
 		096B694F1DBE90BE0021649D /* NGEVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NGEVideo.swift; sourceTree = "<group>"; };
 		096B69501DBE90BE0021649D /* NGEVideoFrameTimecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NGEVideoFrameTimecode.swift; sourceTree = "<group>"; };
 		096B69511DBE90BE0021649D /* NGEVideoTrackReferenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NGEVideoTrackReferenceType.swift; sourceTree = "<group>"; };
-		096B69531DBE90BE0021649D /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		096B69551DBE90BE0021649D /* APIUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUtil.swift; sourceTree = "<group>"; };
 		096B69561DBE90BE0021649D /* TalentAPIUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalentAPIUtil.swift; sourceTree = "<group>"; };
 		096B69571DBE90BE0021649D /* NGDMAppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NGDMAppData.swift; sourceTree = "<group>"; };
@@ -582,7 +581,6 @@
 			isa = PBXGroup;
 			children = (
 				096B686A1DBE90BE0021649D /* Base */,
-				096B69521DBE90BE0021649D /* libxml */,
 				096B69541DBE90BE0021649D /* Network */,
 				096B69571DBE90BE0021649D /* NGDMAppData.swift */,
 				096B69581DBE90BE0021649D /* NGDMAppGroup.swift */,
@@ -849,14 +847,6 @@
 				096B69511DBE90BE0021649D /* NGEVideoTrackReferenceType.swift */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		096B69521DBE90BE0021649D /* libxml */ = {
-			isa = PBXGroup;
-			children = (
-				096B69531DBE90BE0021649D /* module.modulemap */,
-			);
-			path = libxml;
 			sourceTree = "<group>";
 		};
 		096B69541DBE90BE0021649D /* Network */ = {
