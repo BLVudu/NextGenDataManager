@@ -57,6 +57,7 @@
 		097904761EB16851008ACB4D /* UIImageRemoteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097904451EB16851008ACB4D /* UIImageRemoteLoader.swift */; };
 		097904771EB16851008ACB4D /* XMLIndexerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097904461EB16851008ACB4D /* XMLIndexerUtils.swift */; };
 		097904781EB16851008ACB4D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097904471EB16851008ACB4D /* Video.swift */; };
+		097904981EB16A40008ACB4D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097904971EB16A40008ACB4D /* SWXMLHash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +113,7 @@
 		097904451EB16851008ACB4D /* UIImageRemoteLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageRemoteLoader.swift; sourceTree = "<group>"; };
 		097904461EB16851008ACB4D /* XMLIndexerUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLIndexerUtils.swift; sourceTree = "<group>"; };
 		097904471EB16851008ACB4D /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		097904971EB16A40008ACB4D /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = ../SWXMLHash.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				097904981EB16A40008ACB4D /* SWXMLHash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +149,7 @@
 			children = (
 				096B664F1DBE90550021649D /* NextGenDataManager.h */,
 				096B66501DBE90550021649D /* Info.plist */,
+				097904971EB16A40008ACB4D /* SWXMLHash.framework */,
 				0979040F1EB16851008ACB4D /* Source */,
 			);
 			path = NextGenDataManager;
@@ -505,6 +509,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = NextGenDataManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -527,6 +535,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = NextGenDataManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
